@@ -1,7 +1,12 @@
 date=input("Enter Date").split("-")
-print("Year is" + date[0])
-print("Month is" + date[1])
-print("Date is" + date[2])
+print("Month is" + date[0])
+print("Date is" + date[1])
+print("Year is" + date[2])
+mon = date[0]
+if mon==07:
+    print("July")
+else:
+    print("Nothing")
 
 #Problem: Convert month into English
 # Counting the Number of Occurrences of a Character in a String word = "python" character = "p"
