@@ -56,10 +56,12 @@ print(c)'''
 
 #Finding the maximum number in a list without using range
 
-numList =[500,85,35,89,125,120,20,188,158,168,2,5]
+numList =[500,85,35,89,125,120,20,1808,158,168,2,5]
 c = 0
-for i in num:
+for i in numList:
     if i > c:
-        c = i     
+        c=i
 print(c)
+                 
+
 
